@@ -84,3 +84,22 @@ void SysTick_Handler(void)
 }
 
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
+
+
+#include "stm32f10x_it.h"
+#include "stm32f10x_exti.h"
+
+extern unsigned char flag;
+
+void EXTI1_IRQHandler(void)
+{
+
+	flag ^= (1<<0);
+	// 或者使用 flag = 1 - flag;
+	EXTI_ClearITPendingBit(EXTI_Line1);
+	
+}
+
+
+
+

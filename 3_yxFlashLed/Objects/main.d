@@ -29,3 +29,4 @@
 .\objects\main.o: .\Lib\inc\stm32f10x_wwdg.h
 .\objects\main.o: .\Lib\inc\misc.h
 .\objects\main.o: User\delay.h
+.\objects\main.o: User\led.h
