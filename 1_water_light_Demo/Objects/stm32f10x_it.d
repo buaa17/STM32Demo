@@ -9,3 +9,5 @@
 .\objects\stm32f10x_it.o: .\CMSIS\stm32f10x.h
 .\objects\stm32f10x_it.o: .\Lib\inc\stm32f10x_rcc.h
 .\objects\stm32f10x_it.o: .\Lib\inc\misc.h
+.\objects\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\stm32f10x_it.o: .\Lib\inc\stm32f10x_exti.h

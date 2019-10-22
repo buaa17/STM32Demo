@@ -1,4 +1,5 @@
 .\objects\main.o: User\main.c
+.\objects\main.o: User\led.h
 .\objects\main.o: .\CMSIS\stm32f10x.h
 .\objects\main.o: .\CMSIS\core_cm3.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -9,3 +10,4 @@
 .\objects\main.o: .\Lib\inc\stm32f10x_rcc.h
 .\objects\main.o: .\Lib\inc\misc.h
 .\objects\main.o: User\delay.h
+.\objects\main.o: User\usart1.h
